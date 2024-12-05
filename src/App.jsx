@@ -5,14 +5,16 @@ import ProgressBar from "./Components/ProgressBar";
 const App = () => {
   return (
     <>
-      <ProgressBar
-        height={"7vmin"}
-        width={"70vh"}
-        timer={100}
-        // bgColor={"#000000"}
-        start={0}
-        end={100}
-      />
+      <div className="progressHolder w-[100vw] flex justify-center items-center mt-5">
+        <ProgressBar
+          height={"7vmin"}
+          width={"40vw"}
+          timer={100}
+          // bgColor={"#A020F0"}
+          start={0}
+          end={100}
+        />
+      </div>
     </>
   );
 };
